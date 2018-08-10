@@ -8,9 +8,17 @@
 module.exports = {
     
     store: function (req, res) {
-    var entry = req.param('eintrag');
+    let entry = {eintrag: req.param('eintrag')};
+    let respond = List.create({eintrag: entry.eintrag});
     res.status(200);
-    res.send('Du musst noch ' + entry + '!');
+    // res.send(List.find({ eintrag: entry.name }));
+
+
+    respond.then((Doener)=>{
+        res.send(entry);
+        
+    });
+
     
     
     
