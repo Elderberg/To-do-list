@@ -11,6 +11,10 @@ function butClick() {
     var inject = document.createElement('div');
     
     if (entry.length > 0) {
+        var rawEntry = { eintrag: entry };
+        var httreq = new XMLHttpRequest();
+        httreq.open("POST", "http://127.0.0.1:1337/list", true);
+        httreq.send(JSON.stringify(rawEntry));
         
         num2++;
         document.getElementById("text").value = "";
