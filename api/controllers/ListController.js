@@ -6,7 +6,15 @@
  */
 
 module.exports = {
-  
+    
+    store: function (req, res) {
+    var entry = req.param('eintrag');
+    res.status(200);
+    res.send('Wanna shop some ' + entry + '?');
+    
+    
+    
+    },  
 
 };
 
