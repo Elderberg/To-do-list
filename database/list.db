@@ -1,8 +1,0 @@
-{"eintrag":"Test 7","createdAt":1533936265937,"updatedAt":1533936265937,"id":1,"_id":1}
-{"eintrag":"Test 14","createdAt":1533936528741,"updatedAt":1533936528741,"id":2,"_id":2}
-{"eintrag":"Korn","createdAt":1533936586317,"updatedAt":1533936586317,"id":3,"_id":3}
-{"eintrag":"Test","createdAt":1533936599410,"updatedAt":1533936599410,"id":4,"_id":4}
-{"eintrag":"Test 4","createdAt":1533937028063,"updatedAt":1533937028063,"id":5,"_id":5}
-{"eintrag":"dsfsdf","createdAt":1533937037023,"updatedAt":1533937037023,"id":6,"_id":6}
-{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
-{"eintrag":"Neuer Test","createdAt":1533937724383,"updatedAt":1533937724383,"id":7,"_id":7}

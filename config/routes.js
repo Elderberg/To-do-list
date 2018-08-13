@@ -10,7 +10,19 @@
 
 module.exports.routes = {
     
-   'POST /list': 'ListController.store' 
+  
+    'get /todo': {
+    view: 'pages/toindex',
+    locals: {
+      layout: 'layouts/tolayout'
+    }
+  },
+    
+    
+    
+    'POST /list': 'ListController.store'
+    
+    
     
 
 

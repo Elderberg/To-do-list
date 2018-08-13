@@ -14,8 +14,8 @@ module.exports = {
     // res.send(List.find({ eintrag: entry.name }));
 
 
-    respond.then((Doener)=>{
-        res.send(entry);
+    respond.then((Platz)=>{
+        res.send(JSON.stringify(entry));
         
     });
 
